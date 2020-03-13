@@ -4,8 +4,10 @@ function LoginLayout(props) {
   return (
     <>
       <Header></Header>
-      {props.children}
-      <Footer></Footer>
+      <div className="page">
+        {props.children}
+        <Footer></Footer>
+      </div>
     </>
   );
 }
