@@ -10,6 +10,7 @@ export default {
         { path: '/box', component: '../pages/box' },
         { path: '/article', component: '../pages/article' },
         { path: '/download', component: '../pages/download' },
+        { path: '/message', component: '../pages/message' },
         { path: '/login', component: '../pages/login' },
         { path: '/registor', component: '../pages/registor' },
       ],

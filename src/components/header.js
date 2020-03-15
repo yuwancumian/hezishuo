@@ -1,5 +1,5 @@
 import { Link } from 'umi';
-import logo from '@/assets/logo2.png';
+import logo from '@/assets/logo6.png';
 
 export default props => {
   console.log(props.isLogin);
@@ -29,19 +29,19 @@ export default props => {
           </div>
           <ul>
             <li>
-              <Link to="/">首页</Link>
+              <Link to="/">首 页</Link>
             </li>
             <li>
-              <Link to="/box">盒子</Link>
+              <Link to="/box">盒 子</Link>
             </li>
             <li>
-              <Link to="/article">文章</Link>
+              <Link to="/article">文 章</Link>
             </li>
             <li>
-              <Link to="/download">下载</Link>
+              <Link to="/download">下 载</Link>
             </li>
             <li>
-              <Link to="/about">关于</Link>
+              <Link to="/message">留 言</Link>
             </li>
           </ul>
         </div>
