@@ -1,6 +1,9 @@
+import styles from './style.css'
+
 export default () =>{
   return (
-    <div className={'container product'}>
+    <div className={styles['list-box']}>
+      <div className={styles.container}>
       <div className="tag">
         <div>item1</div>
         <div>item2</div>
@@ -25,6 +28,7 @@ export default () =>{
       <div className="box box-3"></div>
       <div className="box box-3"></div>
       <div className="box box-3"></div>
+      </div>
     </div>
   )
 }

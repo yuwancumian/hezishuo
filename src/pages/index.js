@@ -49,9 +49,6 @@ export default function() {
           <div className="box box-3"></div>
           <div className="box box-3"></div>
           <div className="box box-3"></div>
-          <div className="box box-3"></div>
-          <div className="box box-3"></div>
-          <div className="box box-3"></div>
         </div>
       </div>
 

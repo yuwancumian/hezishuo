@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import AV from '../services/avInit';
-
+import styles from './index.less';
 import Header from '../components/header';
 import Footer from '../components/footer';
 

@@ -1,12 +1,13 @@
 import { Link } from 'umi';
 import logo from '@/assets/logo6.png';
+import styles from './header.less';
 
 export default props => {
   console.log(props.isLogin);
   console.log(props.username);
   return (
-    <div className={'top'}>
-      <div className={'container top-center'}>
+    <div className={styles.header}>
+      <div className={`${styles['top-center']}`}>
         <h1 className="title">
           <Link to="/">
             <img alt="" src={logo} />
@@ -38,10 +39,10 @@ export default props => {
               <Link to="/article">文 章</Link>
             </li>
             <li>
-              <Link to="/download">下 载</Link>
+              <Link to="/blog">博客</Link>
             </li>
             <li>
-              <Link to="/message">留 言</Link>
+              <Link to="/download">下 载</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,16 @@
+.download {
+  padding: 24px;
+  background: url(../../assets/sbg1.svg) no-repeat;
+  display: flex;
+}
+.container {
+  width: 1024px;
+  margin: auto;
+  padding: 32px 64px;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+

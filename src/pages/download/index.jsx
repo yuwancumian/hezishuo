@@ -1,7 +1,8 @@
+import styles from './style.css';
 export default () =>{
   return (
-    <div className="download">
-      <div className="container">
+    <div className={styles.download}>
+      <div className={styles.left}>
         <div className="d-item">
           <div>
             <h3>

@@ -1,0 +1,14 @@
+.list-box {
+  padding: 24px;
+  background: url(../../assets/sbg2.svg) no-repeat top 10% right;
+  background-size: 60%;
+}
+
+.container {
+  width: 1024px;
+  display: flex;
+  margin: auto;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
