@@ -1,5 +1,5 @@
 @primary: #FCC460;
-@boxRadius: 8px;
+@boxRadius: 12px;
 
 * {
   box-sizing: border-box;
@@ -172,19 +172,21 @@ body {
   display: flex;
   border-radius: @boxRadius;
   background-color: #fff;
-  box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  // box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   transition: transform 400ms, box-shadow 400ms;
 }
+
 
 .box:hover {
   cursor: pointer;
   transform: scale(1.01);
-  box-shadow: 0 15px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  // box-shadow: 0 15px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .box-2 {
   width: 49%;
-  min-height: 100px;
+  min-height: 200px;
   margin-bottom: 24px;
 }
 
@@ -298,11 +300,11 @@ body {
 
 .d-item {
   width: 100%;
-  clear: both;
   padding: 22px 0;
-  border-bottom: 1px solid #c3c3c3;
-  overflow: hidden;
-
+  display: flex;
+  background: #fff;
+  margin-bottom: 24px;
+  border-radius: 8px;
   div {
     float: left;
     width: 72%;

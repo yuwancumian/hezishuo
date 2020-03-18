@@ -6,9 +6,10 @@ export default {
       path: '/',
       component: '../layouts/index',
       routes: [
-        { path: '/', component: '../pages/index' },
+        { path: '/', component: '../pages/home' },
         { path: '/box', component: '../pages/box' },
         { path: '/article', component: '../pages/article' },
+        { path: '/blog', component: '../pages/blog' },
         { path: '/download', component: '../pages/download' },
         { path: '/message', component: '../pages/message' },
         { path: '/login', component: '../pages/login' },

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { update } from '../services/index';
-import AV from '../services/avInit';
+import { update } from '../../services/index';
+import AV from '../../services/avInit';
 import bg from '@/assets/home_bg4.jpg';
 import cato1 from '@/assets/circuits.jpg';
 import cato2 from '@/assets/arduino.jpg';
-import cato3 from '@/assets/cato3.png';
-import cato4 from '@/assets/cato4.png';
+
+import styles from './style.css';
+
 export default function() {
   // home/user
   // const [user, setUser ]= useState({});
@@ -16,10 +17,8 @@ export default function() {
   }, []);
   return (
     <div className="home">
-      <div className="page-show ">
-        <div className="container">
-          <img src={bg} alt="" />
-        </div>
+      <div className={styles['home-show']}>
+
       </div>
       <div className="cato ">
         <div className="container">
