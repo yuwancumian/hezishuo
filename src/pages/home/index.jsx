@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { update } from '../../services/index';
 import AV from '../../services/avInit';
-import bg from '@/assets/home_bg4.jpg';
+import bg from '@/assets/home_bg4.png';
 import cato1 from '@/assets/circuits.jpg';
 import cato2 from '@/assets/arduino.jpg';
 
@@ -16,9 +16,10 @@ export default function() {
     update();
   }, []);
   return (
-    <div className="home">
+    <div className="home" style={{background: "#fff"}}>
       <div className={styles['home-show']}>
-
+      </div>
+      <div className={styles['home-sp']}>
       </div>
       <div className="cato ">
         <div className="container">
@@ -40,6 +41,7 @@ export default function() {
           </div>
         </div>
       </div>
+
       <div className="project">
         <div className="container">
           <h3>最近发布</h3>

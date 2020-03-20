@@ -3,3 +3,9 @@
   height: 495px;
   background: url(../../assets/home_bg3.png)  no-repeat;
 }
+
+.home-sp {
+  width: 100%;
+  height: 260px;
+  background: url(../../assets/home_bg4.png) no-repeat bottom center;
+}
