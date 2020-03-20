@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { update } from '../../services/index';
 import AV from '../../services/avInit';
 import bg from '@/assets/home_bg4.png';
-import cato1 from '@/assets/circuits.jpg';
-import cato2 from '@/assets/arduino.jpg';
+import icon1 from '@/assets/home_icon1.png';
+import icon2 from '@/assets/home_icon2.png';
+import icon3 from '@/assets/home_icon3.png';
+import icon4 from '@/assets/home_icon4.png';
 
-import styles from './style.css';
+import styles from './style.less';
 
 export default function() {
   // home/user
@@ -24,20 +26,26 @@ export default function() {
       <div className="cato ">
         <div className="container">
           <div className="box box-4">
-            <img src={cato1} alt="" />
-            <p>arduino</p>
+            <img src={icon1} alt="" />
+            <h4>Raspberry pi</h4>
+            <p>Raspberry</p>
           </div>
           <div className="box box-4">
-            <img src={cato2} alt="" />
-            <p>Raspberry Pi</p>
+            <img src={icon2} alt="" />
+            <h4>scratch</h4>
+            <p>
+              scratch
+            </p>
           </div>
           <div className="box box-4">
-            <img src={cato1} alt="" />
+            <img src={icon3} alt="" />
+            <h4>Micro:: Bit</h4>
             <p>Micro:: Bit</p>
           </div>
           <div className="box box-4">
-            <img src={cato2} alt="" />
-            <p>Orange Pi</p>
+            <img src={icon4} alt="" />
+            <h4>arduino</h4>
+            <p>arduino</p>
           </div>
         </div>
       </div>

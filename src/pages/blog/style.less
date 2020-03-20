@@ -18,16 +18,42 @@
     line-height: 24px;
     border-radius: 12px;
     flex-wrap: wrap;
+    color: #666;
     h3 {
       width: 100%;
+      font-size: 18px;
+      padding: 12px 0;
+      transition: font-size 400ms;
+
+    }
+    h3:hover {
+      font-size: 19px;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    a:hover {
+      color: #FCC460;
     }
     p {
       width: 100%;
-      margin: 0;
+      margin: 0 0 12px;
+      color: #333;
     }
   }
 
 }
+
+// :global .title {
+//   font-size: 18px;
+//   padding: 12px 0;
+//   transition: font-size 400ms;
+// }
+
+// :global .title:hover {
+//   font-size: 19px;
+// }
 .container {
   width: 1024px;
   margin: auto;
@@ -38,7 +64,7 @@
 
 
 
-:global .box {
+.box {
   display: flex;
   border-radius: 12px;
   background-color: #fff;
@@ -47,9 +73,9 @@
 }
 
 
-:global .box:hover {
-  cursor: pointer;
-  transform: scale(1.01);
-  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  // box-shadow: 0 15px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
+// .box:hover {
+//   cursor: pointer;
+//   transform: scale(1.01);
+//   box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+//   // box-shadow: 0 15px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+// }
