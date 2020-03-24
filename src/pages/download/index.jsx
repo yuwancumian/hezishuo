@@ -1,9 +1,12 @@
-import styles from './style.css';
+import styles from './style.less';
 export default () =>{
   return (
-    <div className={styles['list-box']}>
-      <div>
+    <div className={styles.download}>
+      <div className={styles.show}>
 
+      </div>
+      <div className={styles.container}>
+        dskads
       </div>
     </div>
   )

@@ -39,7 +39,7 @@ export default props => {
               <Link to="/article">文 章</Link>
             </li>
             <li>
-              <Link to="/blog">博客</Link>
+              <Link to="/blog">博 客</Link>
             </li>
             <li>
               <Link to="/download">下 载</Link>
