@@ -7,6 +7,8 @@ build:
         - echo "build stage"
         - mkdir build
         - touch build/info.txt
+    tags:
+        - homePi
 test:
     stage: test
     script:
