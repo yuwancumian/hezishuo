@@ -5,6 +5,8 @@ build:
     stage: build
     script: 
         - echo "build stage"
+        - mkdir build
+        - touch build/info.txt
 test:
     stage: test
     script:
